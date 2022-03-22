@@ -2,7 +2,7 @@ apiVersion: v2
 name: deployhub
 description: Parent chart for DeployHub
 type: application
-version: 10.0.0
+version: 10.0.1
 appVersion: 10.0.0
 dependencies:
 - name: dh-ms-nginx

@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-03-22T03:12:20.292102508Z"
+    description: A Helm chart for Kubernetes
+    digest: 7244314bc37dcbad9bea4e655a4150a6c780c9e451316be5306a63232039386e
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.3/dh-ms-nginx-10.0.3.tgz
+    version: 10.0.3
+generated: "2022-03-22T03:12:20.292108108Z"

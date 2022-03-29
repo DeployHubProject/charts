@@ -25,7 +25,7 @@ spec:
               containerPort: 80
             - name: https
               containerPort: 443
-          {{ if .Values.SSLChainedCert }}
+          {{ if or .Values.SSLChainedCert .Values.MountSSL }}
           volumeMounts:
             - name: ssl-volume
               mountPath: /etc/nginx/ssl
@@ -37,7 +37,7 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
-      {{ if .Values.SSLChainedCert }}                         
+      {{ if or .Values.SSLChainedCert .Values.MountSSL }}                         
       volumes:
         - name: ssl-volume
           secret:

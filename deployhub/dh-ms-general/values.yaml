@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: quay.io/deployhub/dh-ms-general
-  tag: svccat-v9.0.0.3311-gc21cb2e
+  tag: svccat-v9.0.0.3317-g885879c
   pullPolicy: Always
 
 nameOverride: ""

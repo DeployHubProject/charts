@@ -15,7 +15,7 @@ spec:
       targetPort: 443
       protocol: TCP
       name: https
-{{ if .Values.ingress.enabled }}
+{{ if eq .Values.ingress.type "alb" }}
   type: NodePort
 {{ else }}
   type: LoadBalancer

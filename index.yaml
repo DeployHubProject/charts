@@ -3,6 +3,15 @@ entries:
   dh-jwt:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-04-14T23:47:44.527812697Z"
+    description: A Helm chart for Kubernetes
+    digest: f2717998f8c4955ea4db5cbc138d180b14c00600dee08908934c40d9e3181edb
+    name: dh-jwt
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-jwt-10.0.5/dh-jwt-10.0.5.tgz
+    version: 10.0.5
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-04-14T22:49:23.383317726Z"
     description: A Helm chart for Kubernetes
     digest: ec8cd430a1fd96e49d5be115b2bfed080ee4c66e945de34ffc5790eb28f409cf
@@ -203,4 +212,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2022-04-14T22:49:23.881592789Z"
+generated: "2022-04-14T23:47:44.528162606Z"

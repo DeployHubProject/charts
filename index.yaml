@@ -3,6 +3,15 @@ entries:
   dh-jwt:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-04-14T22:49:23.383317726Z"
+    description: A Helm chart for Kubernetes
+    digest: ec8cd430a1fd96e49d5be115b2bfed080ee4c66e945de34ffc5790eb28f409cf
+    name: dh-jwt
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-jwt-10.0.4/dh-jwt-10.0.4.tgz
+    version: 10.0.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-03-22T03:19:15.201588948Z"
     description: A Helm chart for Kubernetes
     digest: 6990a01e4378dff600851403a3016180b3361903b3819acf2d4e01b7fb451d6f
@@ -11,6 +20,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-jwt-10.0.3/dh-jwt-10.0.3.tgz
     version: 10.0.3
   dh-ms-general:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-04-14T22:49:23.505829561Z"
+    description: A Helm chart for Kubernetes
+    digest: ccf6c9f9406b6aa6f1c03d4b2c10efde01f7291bec63049a9fc8163bb57eff70
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.8/dh-ms-general-10.0.8.tgz
+    version: 10.0.8
   - apiVersion: v1
     appVersion: "1.0"
     created: "2022-04-13T18:28:38.391182372Z"
@@ -57,6 +75,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-04-14T22:49:23.610133846Z"
+    description: A Helm chart for Kubernetes
+    digest: f4892ba9494d4abb0f5dfd0804958c5ded847f501f64bd7ad6fdd52939a2ae03
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.10/dh-ms-nginx-10.0.10.tgz
+    version: 10.0.10
   - apiVersion: v1
     appVersion: "1.0"
     created: "2022-04-14T15:06:26.163734729Z"
@@ -123,6 +150,15 @@ entries:
   dh-ms-ui:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-04-14T22:49:23.735420489Z"
+    description: A Helm chart for Kubernetes
+    digest: df7e633c372a2a81f22b7a995f1a24dcc237b07cb1e8e4d6c50f8e7a8bba2cdb
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-10.0.6/dh-ms-ui-10.0.6.tgz
+    version: 10.0.6
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-04-13T18:28:38.653187585Z"
     description: A Helm chart for Kubernetes
     digest: cc69288436c8ad853bc9a6e52bd9d8b8cbc718558683f73a46257f236042b937
@@ -151,6 +187,15 @@ entries:
   dh-postgres:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-04-14T22:49:23.881495789Z"
+    description: A Helm chart for Kubernetes
+    digest: 9657c77c49152e8acecb2b43407c157e3ff229dadea16482e5bb53e9ddfa4112
+    name: dh-postgres
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.4/dh-postgres-10.0.4.tgz
+    version: 10.0.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-03-22T03:19:15.679166776Z"
     description: A Helm chart for Kubernetes
     digest: 3075452bb3092dae43d44def3c7d64610deb5d7d16ff9af5b13ed1335504349c
@@ -158,4 +203,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2022-04-14T15:06:26.16395443Z"
+generated: "2022-04-14T22:49:23.881592789Z"

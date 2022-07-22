@@ -31,6 +31,15 @@ entries:
   dh-ms-general:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-07-22T17:18:42.908521854Z"
+    description: A Helm chart for Kubernetes
+    digest: 6896906f35d8949209d0f103cfe4f56b9e1cfd5dc217fb877a102da3c13af30d
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.11/dh-ms-general-10.0.11.tgz
+    version: 10.0.11
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-06-03T19:41:59.569025736Z"
     description: A Helm chart for Kubernetes
     digest: e081bd1c7c185c55d021cffce959c2075c4d6e4584bcd84ce9c7e402827cbe53
@@ -102,6 +111,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-07-22T17:18:43.04094987Z"
+    description: A Helm chart for Kubernetes
+    digest: 01ab858d7edc8a23016729a122cbd86437de9f6507072818918c9421c97aa7bf
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.13/dh-ms-nginx-10.0.13.tgz
+    version: 10.0.13
   - apiVersion: v1
     appVersion: "1.0"
     created: "2022-06-02T22:14:05.824055097Z"
@@ -195,6 +213,15 @@ entries:
   dh-ms-ui:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-07-22T17:18:43.157801684Z"
+    description: A Helm chart for Kubernetes
+    digest: 5fe218c55831986ab95230f1340a3f1d415504cc06d75e4f80bee52aa5b9339b
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-10.0.8/dh-ms-ui-10.0.8.tgz
+    version: 10.0.8
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-06-02T22:14:06.031875685Z"
     description: A Helm chart for Kubernetes
     digest: 76ea27e0c89a584f4249b8cc4f9ac518ea25c4618408847d1d5898d421556684
@@ -257,4 +284,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2022-06-03T19:41:59.569169343Z"
+generated: "2022-07-22T17:18:43.158092188Z"

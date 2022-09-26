@@ -17,7 +17,8 @@ metadata:
     app: {{ include "dh-ms-nginx.name" . }}
 spec:
   rules:
-  - http:
+  - host: {{ .Values.ingress.dnsname | quote }}
+    http:
       paths:
       - path:
         pathType: ImplementationSpecific

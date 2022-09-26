@@ -19,6 +19,7 @@ ingress:
   type: ssloff   # alb, volumemnt, sslcert, ssloff  
   alb_certificate_arn: 
   alb_subnets: 
+  dnsname:   
   sslcert:
     chainedcert : |
       -----BEGIN CERTIFICATE-----

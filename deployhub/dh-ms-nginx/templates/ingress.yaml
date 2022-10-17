@@ -6,7 +6,7 @@ metadata:
   name: {{ include "dh-ms-nginx.name" . }}
   annotations:
     kubernetes.io/ingress.class: alb
-    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/scheme: {{ .Values.ingress.scheme | default "internal" }}
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/subnets: {{ .Values.ingress.alb_subnets }} 
     alb.ingress.kubernetes.io/certificate-arn: {{ .Values.ingress.alb_certificate_arn }} 

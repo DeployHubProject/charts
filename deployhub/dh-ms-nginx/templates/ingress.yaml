@@ -36,37 +36,37 @@ spec:
               number: 80  
 {{ end }}
 {{ if eq .Values.ingress.type "glb" }}
+---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ include "dh-ms-nginx.name" . }}
-  labels:
-    app: {{ include "dh-ms-nginx.name" . }}
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: deployhub-console
-    networking.gke.io/managed-certificates: deployhub-cert
-    kubernetes.io/ingress.allow-http: "false"     
+    kubernetes.io/ingress.global-static-ip-name: {{ include "dh-ms-nginx.name" . }}
+    networking.gke.io/managed-certificates: managed-cert-dh-ms-nginx
+    networking.gke.io/v1beta1.FrontendConfig: {{ include "dh-ms-nginx.name" . }}
 spec:
-  ingressClassName: nginx
-  rules:
-  - host: {{ .Values.ingress.dnsname | quote }}
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: {{ include "dh-ms-nginx.name" . }}
-            port:
-              number: 80 
+  defaultBackend:
+    service:
+      name: {{ include "dh-ms-nginx.name" . }}
+      port:
+        number: 80
+---
+apiVersion: networking.gke.io/v1beta1
+kind: FrontendConfig
+metadata:
+  name: {{ include "dh-ms-nginx.name" . }}
+spec:
+  redirectToHttps:
+    enabled: true
 ---
 apiVersion: networking.gke.io/v1
 kind: ManagedCertificate
 metadata:
-  name: deployhub-cert
+  name: managed-cert-dh-ms-nginx
 spec:
   domains:
-    - {{ .Values.ingress.dnsname | quote }}
+    - console.deployhub.com
 ---
 {{ else }}
 apiVersion: networking.k8s.io/v1

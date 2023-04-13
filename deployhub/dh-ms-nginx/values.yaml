@@ -3,7 +3,7 @@ image:
   repository: quay.io/deployhub
   tag: quay.io/deployhub/dh-ms-nginx
   pullPolicy: Always
-  sha: sha256:159c834b6914d18d6176e9c55157db53a6eafa39a3b393927a217cc77727762d
+  sha: sha256:589ef65a23e630da46f9e869120dde6dc976f75e5799a3848dd2a3489b807b68
 ingress:
   enum:
     alb: 'OFF'

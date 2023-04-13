@@ -1,11 +1,7 @@
-# Default values for dh-ms-ui.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-
 replicaCount: 1
-
 image:
-  repository: quay.io/deployhub/dh-ms-general
-  tag: svccat-v9.0.0.3361-g9e65709
+  repository: quay.io/deployhub
+  tag: quay.io/deployhub/dh-ms-general
   pullPolicy: Always
-internal_nginx: "OFF"
+  sha: sha256:318fe40d140dc596a107c956b2868d2374ef8972331bdcb7b8784001bd7067f1
+internal_nginx: 'OFF'

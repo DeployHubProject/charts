@@ -30,6 +30,15 @@ entries:
     version: 10.0.3
   dh-ms-general:
   - apiVersion: v1
+    appVersion: 10.0.73
+    created: "2023-04-13T17:26:17.411611658Z"
+    description: A Helm chart for Kubernetes
+    digest: 0ff039ec1de89c26c07f4dbd4c598e8bc1a1319af6aed6dab39fb9f1c70a53ef
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.73/dh-ms-general-10.0.73.tgz
+    version: 10.0.73
+  - apiVersion: v1
     appVersion: "1.0"
     created: "2022-12-19T17:24:01.892369496Z"
     description: A Helm chart for Kubernetes
@@ -183,6 +192,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: 10.0.73
+    created: "2023-04-13T17:26:17.587024386Z"
+    description: A Helm chart for Kubernetes
+    digest: 00c21a054fb80410b5aa94b53e046d935a9099a49e9e7563ecba3594a427ea04
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.73/dh-ms-nginx-10.0.73.tgz
+    version: 10.0.73
   - apiVersion: v1
     appVersion: "1.0"
     created: "2023-02-06T21:56:29.681768858Z"
@@ -410,6 +428,15 @@ entries:
     version: 10.0.3
   dh-ms-ui:
   - apiVersion: v1
+    appVersion: 10.0.73
+    created: "2023-04-13T17:26:17.757197121Z"
+    description: A Helm chart for Kubernetes
+    digest: 817abf6aae2bdd6669f115aa54c9fdc9ba44bca5b4d4ce42267ccc6a5a6b812c
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-10.0.73/dh-ms-ui-10.0.73.tgz
+    version: 10.0.73
+  - apiVersion: v1
     appVersion: "1.0"
     created: "2022-12-19T17:24:02.334157694Z"
     description: A Helm chart for Kubernetes
@@ -545,4 +572,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2023-02-06T21:56:29.682132486Z"
+generated: "2023-04-13T17:26:17.757633529Z"

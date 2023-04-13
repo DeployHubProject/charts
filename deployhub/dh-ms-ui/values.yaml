@@ -3,5 +3,5 @@ image:
   repository: quay.io/deployhub
   tag: quay.io/deployhub/dh-ms-ui
   pullPolicy: Always
-  sha: sha256:e7a7881fd87938a0d7a6f5c9dca53279ad8992e567c8faeabde34c17a6c1ef61
+  sha: sha256:fc0596dc91b2aaae4673cf42fcda5fbd63932d33ec569d827954c5d3ddb2eced
 internal_nginx: 'OFF'

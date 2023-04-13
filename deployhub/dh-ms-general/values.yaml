@@ -3,5 +3,5 @@ image:
   repository: quay.io/deployhub
   tag: quay.io/deployhub/dh-ms-general
   pullPolicy: Always
-  sha: sha256:318fe40d140dc596a107c956b2868d2374ef8972331bdcb7b8784001bd7067f1
+  sha: sha256:d40971447317a2948afacce00a57bc5324f3dc0e9ebc93c83ebb85235b429d9b
 internal_nginx: 'OFF'

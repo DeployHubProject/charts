@@ -1,21 +1,17 @@
-# Default values for ms-nginx.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
 replicaCount: 1
 image:
   repository: quay.io/deployhub/dh-ms-nginx
-  tag: svccat-v10.0.80-g71b9a9
+  tag: svccat-v10.0.81-gf222a0
   pullPolicy: Always
-  sha: sha256:a81edfe5a07b63df4ad54540e8c68aef5799456f58afa2d610cb8f8d2a40744a
+  sha: sha256:6e520e9fa74ae320ca867dc00e90aa84f9ef5694db43ac9c8a8dcfbf7f7ce20e
 ingress:
   enum:
-    alb: "OFF"
-    glb: "OFF"
-    volumemnt: ""
-    sslcert: "ON"
-    ssloff: "OFF"
-  type: ssloff # alb, volumemnt, sslcert, ssloff
-  alb_certificate_arn:
-  alb_subnets:
+    alb: 'OFF'
+    glb: 'OFF'
+    volumemnt: ''
+    sslcert: 'ON'
+    ssloff: 'OFF'
+  type: ssloff
+  alb_certificate_arn: null
+  alb_subnets: null
   dnsname: console.deployhub.com
-

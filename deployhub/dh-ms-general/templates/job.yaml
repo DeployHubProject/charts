@@ -3,7 +3,6 @@ kind: Job
 metadata:
   name: db-load
 spec:
-  ttlSecondsAfterFinished: 30
   template:
     spec:
       containers:

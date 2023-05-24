@@ -17,7 +17,7 @@ spec:
         track: stable
     spec:
       nodeSelector:
-        kubernetes.io/os: linux    
+        kubernetes.io/os: linux
       containers:
         - name: {{ include "dh-ms-ui.name" . }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -37,10 +37,10 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: pgcred
-                  key: DBConnectionString  
+                  key: DBConnectionString
             - name: NGINX
-              value: "{{ .Values.internal_nginx }}"                      
+              value: "{{ .Values.internal_nginx }}"
           ports:
             - name: http
-              containerPort: 8080        
+              containerPort: 8080
 ---

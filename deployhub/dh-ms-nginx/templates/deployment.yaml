@@ -17,11 +17,11 @@ spec:
         track: stable
     spec:
       nodeSelector:
-        kubernetes.io/os: linux    
+        kubernetes.io/os: linux
       containers:
         - name: {{ include "ms-nginx.name" . }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}           
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
               containerPort: 80
@@ -39,7 +39,7 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
-      {{ if or (eq .Values.ingress.type  "sslcert") (eq .Values.ingress.type  "volumemnt") }}                        
+      {{ if or (eq .Values.ingress.type  "sslcert") (eq .Values.ingress.type  "volumemnt") }}
       volumes:
         - name: ssl-volume
           secret:

@@ -30,6 +30,15 @@ entries:
     version: 10.0.3
   dh-ms-general:
   - apiVersion: v1
+    appVersion: 10.0.84
+    created: "2023-05-25T14:19:51.400471069Z"
+    description: A Helm chart for Kubernetes
+    digest: 96ef2105e518d2c178002d09a4243201b409bbef96a8ce0006ce3630f5c84b95
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.84/dh-ms-general-10.0.84.tgz
+    version: 10.0.84
+  - apiVersion: v1
     appVersion: 10.0.83
     created: "2023-04-28T18:41:14.155754996Z"
     description: A Helm chart for Kubernetes
@@ -282,6 +291,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: 10.0.84
+    created: "2023-05-25T14:19:51.60284926Z"
+    description: A Helm chart for Kubernetes
+    digest: 6a199ddd70e887729ad7d7be5927f840a13b85c87fb79ecd7bd6cbe16ee67f3a
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.84/dh-ms-nginx-10.0.84.tgz
+    version: 10.0.84
   - apiVersion: v1
     appVersion: 10.0.83
     created: "2023-04-28T18:41:14.324459586Z"
@@ -599,6 +617,15 @@ entries:
     version: 10.0.3
   dh-ms-ui:
   - apiVersion: v1
+    appVersion: 10.0.84
+    created: "2023-05-25T14:19:51.844752725Z"
+    description: A Helm chart for Kubernetes
+    digest: 0e80b0e966f3e27a5d7e446d700f641c112824653da88ec79249e0fd839a7556
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-10.0.84/dh-ms-ui-10.0.84.tgz
+    version: 10.0.84
+  - apiVersion: v1
     appVersion: 10.0.83
     created: "2023-04-28T18:41:14.478788551Z"
     description: A Helm chart for Kubernetes
@@ -824,4 +851,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2023-04-28T18:41:14.479760353Z"
+generated: "2023-05-25T14:19:51.845600129Z"

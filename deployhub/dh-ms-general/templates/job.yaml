@@ -3,6 +3,7 @@ kind: Job
 metadata:
   name: db-load
 spec:
+  ttlSecondsAfterFinished: 90
   template:
     spec:
       nodeSelector:

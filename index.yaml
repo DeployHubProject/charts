@@ -30,6 +30,15 @@ entries:
     version: 10.0.3
   dh-ms-general:
   - apiVersion: v1
+    appVersion: 10.0.93
+    created: "2023-06-01T22:31:47.351102358Z"
+    description: A Helm chart for Kubernetes
+    digest: df860aac95281b56de1003bc1593c4bd30cf6f6bac6672255e6e8d7690384039
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.93/dh-ms-general-10.0.93.tgz
+    version: 10.0.93
+  - apiVersion: v1
     appVersion: 10.0.92
     created: "2023-06-01T22:28:12.940868389Z"
     description: A Helm chart for Kubernetes
@@ -363,6 +372,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: 10.0.93
+    created: "2023-06-01T22:31:47.489316455Z"
+    description: A Helm chart for Kubernetes
+    digest: 407cc8fe4c1c53328bbae12db6108dcbc89ea18907d4ce9e9a69d515c3f12dce
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-10.0.93/dh-ms-nginx-10.0.93.tgz
+    version: 10.0.93
   - apiVersion: v1
     appVersion: 10.0.92
     created: "2023-06-01T22:28:13.091428557Z"
@@ -761,6 +779,15 @@ entries:
     version: 10.0.3
   dh-ms-ui:
   - apiVersion: v1
+    appVersion: 10.0.93
+    created: "2023-06-01T22:31:47.621436347Z"
+    description: A Helm chart for Kubernetes
+    digest: 52379a8f703ce41bae354ec7aab7a69786a9e26c118585ebfd365a829cbcb280
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-10.0.93/dh-ms-ui-10.0.93.tgz
+    version: 10.0.93
+  - apiVersion: v1
     appVersion: 10.0.92
     created: "2023-06-01T22:28:13.24159572Z"
     description: A Helm chart for Kubernetes
@@ -1067,4 +1094,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2023-06-01T22:28:13.242560532Z"
+generated: "2023-06-01T22:31:47.622424448Z"

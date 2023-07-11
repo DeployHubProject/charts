@@ -1,9 +1,9 @@
 replicaCount: 1
 image:
   repository: quay.io/deployhub/dh-ms-nginx
-  tag: svccat-v10.0.116-gb54474
+  tag: svccat-v10.0.117-g76812d
   pullPolicy: Always
-  sha: sha256:94341a6e69b797e57551aa6d2fe9062b52cdbec49d067112a1de1a4f35681ab2
+  sha: sha256:76a2fe9fdd485213145c99a43867fe28e3a5272818e2727233e3c1a9cd05f7ad
 ingress:
   enum:
     alb: 'OFF'

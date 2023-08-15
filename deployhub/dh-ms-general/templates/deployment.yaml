@@ -38,7 +38,7 @@ spec:
                 secretKeyRef:
                   name: pgcred
                   key: DBConnectionString
-            {{ if and .Values.SamlIdpMetadata .Values.SamlLogoutRedirect }}                  
+            {{ if and .Values.SamlIdpMetadata .Values.SamlLogoutRedirect }}
             - name: SamlIdpMetadata
               valueFrom:
                 secretKeyRef:

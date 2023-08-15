@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: db-load
 spec:
-  ttlSecondsAfterFinished: 90
+  ttlSecondsAfterFinished: {{ .Values.jobTTL | default 90 }}
   template:
     spec:
       nodeSelector:

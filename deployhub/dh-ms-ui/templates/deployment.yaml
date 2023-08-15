@@ -38,6 +38,18 @@ spec:
                 secretKeyRef:
                   name: pgcred
                   key: DBConnectionString
+            {{ if and .Values.SamlIdpMetadata .Values.SamlLogoutRedirect }}
+            - name: SamlIdpMetadata
+              valueFrom:
+                secretKeyRef:
+                  name: saml
+                  key: SamlIdpMetadata
+            - name: SamlLogoutRedirect
+              valueFrom:
+                secretKeyRef:
+                  name: saml
+                  key: SamlLogoutRedirect
+          {{ end }}
             - name: NGINX
               value: "{{ .Values.internal_nginx }}"
           ports:

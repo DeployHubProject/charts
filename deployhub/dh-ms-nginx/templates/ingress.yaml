@@ -75,6 +75,10 @@ metadata:
   name: {{ include "ms-nginx.name" . }}
   labels:
     app: {{ include "ms-nginx.name" . }}
+{{ if ne .Values.ingress.type "k3d" }}
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "100m"
+{{ end }}    
 spec:
 {{ if eq .Values.ingress.type "k3d" }}
   ingressClassName: traefik

@@ -14,4 +14,4 @@ ingress:
   type: ssloff
   alb_certificate_arn: null
   alb_subnets: null
-  dnsname: console.deployhub.com
+ 

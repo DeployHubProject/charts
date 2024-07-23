@@ -30,6 +30,15 @@ entries:
     version: 10.0.3
   dh-ms-general:
   - apiVersion: v1
+    appVersion: 11.0.355
+    created: "2024-07-23T20:49:49.817028925Z"
+    description: A Helm chart for Kubernetes
+    digest: e452ba138dbcaea529bffd0ae0d46477c7706979fc5dab813808f4df066ae2dc
+    name: dh-ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-11.0.355/dh-ms-general-11.0.355.tgz
+    version: 11.0.355
+  - apiVersion: v1
     appVersion: 11.0.353
     created: "2024-07-23T06:57:46.312923997Z"
     description: A Helm chart for Kubernetes
@@ -2019,6 +2028,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/dh-ms-general-10.0.3/dh-ms-general-10.0.3.tgz
     version: 10.0.3
   dh-ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.355
+    created: "2024-07-23T20:49:50.030576001Z"
+    description: A Helm chart for Kubernetes
+    digest: 07345fe9a33cbe9daf7cf1d630a3699a5beda55cc6ebe6b58d86b0b7b6315048
+    name: dh-ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-nginx-11.0.355/dh-ms-nginx-11.0.355.tgz
+    version: 11.0.355
   - apiVersion: v1
     appVersion: 11.0.353
     created: "2024-07-23T06:57:46.412261411Z"
@@ -4073,6 +4091,15 @@ entries:
     version: 10.0.3
   dh-ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.355
+    created: "2024-07-23T20:49:50.240115041Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a8cf64cd7658199f7222ce00c3e2144dbae8836196095ced28f23b4ae4beded
+    name: dh-ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/dh-ms-ui-11.0.355/dh-ms-ui-11.0.355.tgz
+    version: 11.0.355
+  - apiVersion: v1
     appVersion: 11.0.353
     created: "2024-07-23T06:57:46.524563019Z"
     description: A Helm chart for Kubernetes
@@ -6035,4 +6062,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2024-07-23T06:57:46.5271528Z"
+generated: "2024-07-23T20:49:50.242637436Z"

@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: quay.io/deployhub/dh-ms-general
-  tag: svccat-v11.0.364-g1116a6
+  tag: svccat-v11.0.365-g80a60b
   pullPolicy: Always
-  sha: sha256:8316d5fed2c93a60e9a3ba1aa50b2410403ed2545cc4b37a6039fb4edc055a15
+  sha: sha256:26631f5d08da31520f99afc342e67cecc80ad3109f35d409c5f0bdf628cd7689
 internal_nginx: 'OFF'

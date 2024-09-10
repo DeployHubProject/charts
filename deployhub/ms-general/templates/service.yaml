@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "dh-ms-ui.name" . }}
+  name: {{ include "ms-general.name" . }}
   labels:
-    app.kubernetes.io/name: {{ include "dh-ms-ui.name" . }}
-    helm.sh/chart: {{ include "dh-ms-ui.chart" . }}
+    app.kubernetes.io/name: {{ include "ms-general.name" . }}
+    helm.sh/chart: {{ include "ms-general.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
   selector:
-    app: {{ include "dh-ms-ui.name" . }}
+    app: {{ include "ms-general.name" . }}
     tier: backend
   ports:
     - protocol: TCP

@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "dh-ms-ui.name" . }}
+  name: {{ include "ms-general.name" . }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app:  {{ include "dh-ms-ui.name" . }}
+      app:  {{ include "ms-general.name" . }}
       tier: backend
       track: stable
   template:
     metadata:
       labels:
-        app: dh-ms-ui
+        app: ms-general
         tier: backend
         track: stable
     spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-        - name: {{ include "dh-ms-ui.name" . }}
+        - name: {{ include "ms-general.name" . }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
@@ -55,4 +55,3 @@ spec:
           ports:
             - name: http
               containerPort: 8080
----

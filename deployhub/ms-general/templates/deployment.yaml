@@ -52,6 +52,8 @@ spec:
           {{ end }}
             - name: NGINX
               value: "{{ .Values.internal_nginx }}"
+            - name: PUBLIC_KEY
+              value: "https://www.deployhub.com/downloads/id_ed25519.pub"              
           ports:
             - name: http
               containerPort: 8080

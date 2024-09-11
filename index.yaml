@@ -6926,4 +6926,34 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/dh-postgres-10.0.3/dh-postgres-10.0.3.tgz
     version: 10.0.3
-generated: "2024-09-10T21:33:39.026006185Z"
+  ms-general:
+  - apiVersion: v1
+    appVersion: 11.0.305
+    created: "2024-09-11T15:10:33.750986543Z"
+    description: A Helm chart for Kubernetes
+    digest: 04dcfcc6163181e61fd37f84224397d27ef6246da9bf9a086c011dd6b15095c9
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
+    version: 11.0.305
+  ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.305
+    created: "2024-09-11T15:10:33.950647092Z"
+    description: A Helm chart for Kubernetes
+    digest: e7ac59fb819b9c37ca89a95bf6b693736776e9d72a1fbe5e32a9190b69a99908
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.305/ms-nginx-11.0.305.tgz
+    version: 11.0.305
+  ms-ui:
+  - apiVersion: v1
+    appVersion: 11.0.305
+    created: "2024-09-11T15:10:34.202787699Z"
+    description: A Helm chart for Kubernetes
+    digest: 69b6c535606daa90c5a743c0cde91727aa498b25f8e7fb4234271c0dff0838d2
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
+    version: 11.0.305
+generated: "2024-09-11T15:10:34.20452111Z"

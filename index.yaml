@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.447
+    created: "2024-10-14T21:49:19.693719187Z"
+    description: A Helm chart for Kubernetes
+    digest: b3384a08651224052ea02e734b387f50676c3a6e52e7234c28006b51d8ee1b45
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.447/ms-general-11.0.447.tgz
+    version: 11.0.447
+  - apiVersion: v1
     appVersion: 11.0.445
     created: "2024-10-10T00:35:16.556505044Z"
     description: A Helm chart for Kubernetes
@@ -7126,6 +7135,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.447
+    created: "2024-10-14T21:49:19.866707996Z"
+    description: A Helm chart for Kubernetes
+    digest: 941777dae2258607a1868df13575e4012441ba6b59286ba37a0ad648367a6d14
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.447/ms-nginx-11.0.447.tgz
+    version: 11.0.447
   - apiVersion: v1
     appVersion: 11.0.445
     created: "2024-10-10T00:35:16.752717895Z"
@@ -7326,6 +7344,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.447
+    created: "2024-10-14T21:49:20.045862003Z"
+    description: A Helm chart for Kubernetes
+    digest: ac6696532d6844b90d13c0db08caff69477e8179e63d1872b3a05f62c163570e
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.447/ms-ui-11.0.447.tgz
+    version: 11.0.447
+  - apiVersion: v1
     appVersion: 11.0.445
     created: "2024-10-10T00:35:16.962384192Z"
     description: A Helm chart for Kubernetes
@@ -7523,4 +7550,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2024-10-10T00:35:16.963778949Z"
+generated: "2024-10-14T21:49:20.047175152Z"

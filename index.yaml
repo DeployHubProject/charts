@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.479
+    created: "2024-11-15T00:51:05.464290471Z"
+    description: A Helm chart for Kubernetes
+    digest: 71e67ee09737c4ef9b9d4630a07b327980c98fa0f36ad5d9a4b83710801a08ba
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.479/ms-general-11.0.479.tgz
+    version: 11.0.479
+  - apiVersion: v1
     appVersion: 11.0.477
     created: "2024-11-14T20:13:46.331612875Z"
     description: A Helm chart for Kubernetes
@@ -7270,6 +7279,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.479
+    created: "2024-11-15T00:51:05.59269676Z"
+    description: A Helm chart for Kubernetes
+    digest: efe6acf4630223caf5c13cc5b8fa25cbb75fae30b2206ac95dbb360792d795a9
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.479/ms-nginx-11.0.479.tgz
+    version: 11.0.479
   - apiVersion: v1
     appVersion: 11.0.477
     created: "2024-11-14T20:13:46.442705217Z"
@@ -7614,6 +7632,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.479
+    created: "2024-11-15T00:51:05.707626257Z"
+    description: A Helm chart for Kubernetes
+    digest: 594ecd250791695c4bc1353679a3959b5600ca3ba19b1721535475b32e429d58
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.479/ms-ui-11.0.479.tgz
+    version: 11.0.479
+  - apiVersion: v1
     appVersion: 11.0.477
     created: "2024-11-14T20:13:46.537197132Z"
     description: A Helm chart for Kubernetes
@@ -7955,4 +7982,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2024-11-14T20:13:46.540342147Z"
+generated: "2024-11-15T00:51:05.709347443Z"

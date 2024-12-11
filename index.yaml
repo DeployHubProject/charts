@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.500
+    created: "2024-12-11T01:48:07.196637884Z"
+    description: A Helm chart for Kubernetes
+    digest: 9a16cf38ae440fd6c021c13f2109a16e095a75ee3f1f5d1a56df51fd2a496863
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.500/ms-general-11.0.500.tgz
+    version: 11.0.500
+  - apiVersion: v1
     appVersion: 11.0.498
     created: "2024-12-10T18:05:02.158749321Z"
     description: A Helm chart for Kubernetes
@@ -7360,6 +7369,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.500
+    created: "2024-12-11T01:48:07.390380856Z"
+    description: A Helm chart for Kubernetes
+    digest: 6beb729650764aaf42777ed5bff1ede1615340407fa205a9773958133f45570e
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.500/ms-nginx-11.0.500.tgz
+    version: 11.0.500
   - apiVersion: v1
     appVersion: 11.0.498
     created: "2024-12-10T18:05:02.381536461Z"
@@ -7794,6 +7812,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.500
+    created: "2024-12-11T01:48:07.562929237Z"
+    description: A Helm chart for Kubernetes
+    digest: 868bd7806d83f5348478ef2c452fe2eb28f6d3ca1dffa1a24a8028351a094b94
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.500/ms-ui-11.0.500.tgz
+    version: 11.0.500
+  - apiVersion: v1
     appVersion: 11.0.498
     created: "2024-12-10T18:05:02.54620789Z"
     description: A Helm chart for Kubernetes
@@ -8225,4 +8252,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2024-12-10T18:05:02.548840107Z"
+generated: "2024-12-11T01:48:07.564812021Z"

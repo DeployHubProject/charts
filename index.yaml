@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.587
+    created: "2025-02-24T05:42:57.06733427Z"
+    description: A Helm chart for Kubernetes
+    digest: 06940e82c1c58b86907b23a8c32b4d0cb2cf2a669c75a1c335b79dac5961ca7d
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.587/ms-general-11.0.587.tgz
+    version: 11.0.587
+  - apiVersion: v1
     appVersion: 11.0.585
     created: "2025-02-21T23:07:38.978327117Z"
     description: A Helm chart for Kubernetes
@@ -7693,6 +7702,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.587
+    created: "2025-02-24T05:42:57.175353915Z"
+    description: A Helm chart for Kubernetes
+    digest: fd173cedc0580eec5e4d548d8e399b03764243b8463e24ecf63e56be56b9060b
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.587/ms-nginx-11.0.587.tgz
+    version: 11.0.587
   - apiVersion: v1
     appVersion: 11.0.585
     created: "2025-02-21T23:07:39.17242338Z"
@@ -8460,6 +8478,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.587
+    created: "2025-02-24T05:42:57.292311667Z"
+    description: A Helm chart for Kubernetes
+    digest: ac772ec522ca118c1954f1fc3773344970f04147ec86ab2073292a6dfb2dc761
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.587/ms-ui-11.0.587.tgz
+    version: 11.0.587
+  - apiVersion: v1
     appVersion: 11.0.585
     created: "2025-02-21T23:07:39.367412119Z"
     description: A Helm chart for Kubernetes
@@ -9224,4 +9251,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2025-02-21T23:07:39.368992286Z"
+generated: "2025-02-24T05:42:57.293960095Z"

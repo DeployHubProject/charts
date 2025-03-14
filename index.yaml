@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.597
+    created: "2025-03-14T13:44:30.639614507Z"
+    description: A Helm chart for Kubernetes
+    digest: 7ceba9436bab3b08de1f99bba969dc31018bbeb31f32c93749c62b21fc536ec5
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.597/ms-general-11.0.597.tgz
+    version: 11.0.597
+  - apiVersion: v1
     appVersion: 11.0.595
     created: "2025-03-08T01:48:23.30068206Z"
     description: A Helm chart for Kubernetes
@@ -7738,6 +7747,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.597
+    created: "2025-03-14T13:44:30.781350302Z"
+    description: A Helm chart for Kubernetes
+    digest: 40cf8cfb68afeec6104708d4058852e1365d1c85c986a5553635c6a5352b1319
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.597/ms-nginx-11.0.597.tgz
+    version: 11.0.597
   - apiVersion: v1
     appVersion: 11.0.595
     created: "2025-03-08T01:48:23.469932833Z"
@@ -8550,6 +8568,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.597
+    created: "2025-03-14T13:44:30.91627303Z"
+    description: A Helm chart for Kubernetes
+    digest: b8a74c6f9cbada3c4ca5453a917417582ec2ffbf1327a01ed63fad1d658d789b
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.597/ms-ui-11.0.597.tgz
+    version: 11.0.597
+  - apiVersion: v1
     appVersion: 11.0.595
     created: "2025-03-08T01:48:23.614449145Z"
     description: A Helm chart for Kubernetes
@@ -9359,4 +9386,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2025-03-08T01:48:23.616140177Z"
+generated: "2025-03-14T13:44:30.918025017Z"

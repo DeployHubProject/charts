@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.716
+    created: "2025-09-09T20:40:38.32690532Z"
+    description: A Helm chart for Kubernetes
+    digest: ca3b78b504ab81a43e8ecfc55f6f796f136dff11948c2c371cd75d1983470e18
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.716/ms-general-11.0.716.tgz
+    version: 11.0.716
+  - apiVersion: v1
     appVersion: 11.0.714
     created: "2025-09-09T18:14:41.293478406Z"
     description: A Helm chart for Kubernetes
@@ -8242,6 +8251,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.716
+    created: "2025-09-09T20:40:38.439160617Z"
+    description: A Helm chart for Kubernetes
+    digest: 5792c3a185c3470128b155510a79e30cba667a6e61e1eb3b7b3c0f232e6410aa
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.716/ms-nginx-11.0.716.tgz
+    version: 11.0.716
   - apiVersion: v1
     appVersion: 11.0.714
     created: "2025-09-09T18:14:41.543825831Z"
@@ -9558,6 +9576,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.716
+    created: "2025-09-09T20:40:38.540346389Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a62b875b73e935b4d4a6b1b780af0ddf2d272139492e267470561c21fb74483
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.716/ms-ui-11.0.716.tgz
+    version: 11.0.716
+  - apiVersion: v1
     appVersion: 11.0.714
     created: "2025-09-09T18:14:41.798033049Z"
     description: A Helm chart for Kubernetes
@@ -10871,4 +10898,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2025-09-09T18:14:41.799854057Z"
+generated: "2025-09-09T20:40:38.543465542Z"

@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: quay.io/deployhub/ms-ui
-  tag: svccat-v11.0.810-gb23d26
+  tag: svccat-v11.0.813-g902d9f
   pullPolicy: Always
-  sha: sha256:000789523d7a9171b289868664e6a420ebf6ff2b9edfc9c6803fe6f3e4662527
+  sha: sha256:71a6e4ee171bfecbf348d1dac19f70ad2540f3d7db990703b1e9d123a36e690f
 internal_nginx: 'OFF'

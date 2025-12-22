@@ -6928,6 +6928,15 @@ entries:
     version: 10.0.3
   ms-general:
   - apiVersion: v1
+    appVersion: 11.0.815
+    created: "2025-12-22T05:54:31.467119776Z"
+    description: A Helm chart for Kubernetes
+    digest: b61cffe81b6516db5743215378820b3e022336e338b43941534ee2ead4626805
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.815/ms-general-11.0.815.tgz
+    version: 11.0.815
+  - apiVersion: v1
     appVersion: 11.0.813
     created: "2025-12-18T14:38:19.27296938Z"
     description: A Helm chart for Kubernetes
@@ -8683,6 +8692,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.305/ms-general-11.0.305.tgz
     version: 11.0.305
   ms-nginx:
+  - apiVersion: v1
+    appVersion: 11.0.815
+    created: "2025-12-22T05:54:31.688781537Z"
+    description: A Helm chart for Kubernetes
+    digest: 3fd18bc8cd6d421b7417b73541be77c72558d182f1529f8d8f41bdf35ce4e927
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.815/ms-nginx-11.0.815.tgz
+    version: 11.0.815
   - apiVersion: v1
     appVersion: 11.0.813
     created: "2025-12-18T14:38:19.456866996Z"
@@ -10440,6 +10458,15 @@ entries:
     version: 11.0.305
   ms-ui:
   - apiVersion: v1
+    appVersion: 11.0.815
+    created: "2025-12-22T05:54:31.935164869Z"
+    description: A Helm chart for Kubernetes
+    digest: e5b175e274d425428bb9343d71cf60879704e9c928dfaa0878095058c50ae325
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.815/ms-ui-11.0.815.tgz
+    version: 11.0.815
+  - apiVersion: v1
     appVersion: 11.0.813
     created: "2025-12-18T14:38:19.589674578Z"
     description: A Helm chart for Kubernetes
@@ -12194,4 +12221,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2025-12-18T14:38:19.593107967Z"
+generated: "2025-12-22T05:54:31.937609255Z"

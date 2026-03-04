@@ -6937,6 +6937,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.870/ms-general-11.0.870.tgz
     version: 11.0.870
   - apiVersion: v1
+    appVersion: 11.0.869
+    created: "2026-03-04T15:14:07.500697239Z"
+    description: A Helm chart for Kubernetes
+    digest: 380c3adb65b1a389172e6be99682c5d8c8b475d4d01577c965055308cd88c864
+    name: ms-general
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-general-11.0.869/ms-general-11.0.869.tgz
+    version: 11.0.869
+  - apiVersion: v1
     appVersion: 11.0.867
     created: "2026-03-02T16:49:31.667039275Z"
     description: A Helm chart for Kubernetes
@@ -8917,6 +8926,15 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.870/ms-nginx-11.0.870.tgz
     version: 11.0.870
+  - apiVersion: v1
+    appVersion: 11.0.869
+    created: "2026-03-04T15:14:07.716839545Z"
+    description: A Helm chart for Kubernetes
+    digest: a5614e534d3804ce97c76fbd09808f53b0c4f7450d8faec33d82e5b9218605d3
+    name: ms-nginx
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-nginx-11.0.869/ms-nginx-11.0.869.tgz
+    version: 11.0.869
   - apiVersion: v1
     appVersion: 11.0.867
     created: "2026-03-02T16:49:31.906990053Z"
@@ -10899,6 +10917,15 @@ entries:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.870/ms-ui-11.0.870.tgz
     version: 11.0.870
   - apiVersion: v1
+    appVersion: 11.0.869
+    created: "2026-03-04T15:14:07.888338202Z"
+    description: A Helm chart for Kubernetes
+    digest: 5b164e139f0d2f6b6c7e2e6c9a229224f468746ffc7ede6742179a15e4930590
+    name: ms-ui
+    urls:
+    - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.869/ms-ui-11.0.869.tgz
+    version: 11.0.869
+  - apiVersion: v1
     appVersion: 11.0.867
     created: "2026-03-02T16:49:32.188222305Z"
     description: A Helm chart for Kubernetes
@@ -12869,4 +12896,4 @@ entries:
     urls:
     - https://github.com/DeployHubProject/charts/releases/download/ms-ui-11.0.305/ms-ui-11.0.305.tgz
     version: 11.0.305
-generated: "2026-03-04T15:13:27.769000017Z"
+generated: "2026-03-04T15:14:07.892128536Z"
